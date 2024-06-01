@@ -2,11 +2,6 @@
 using namespace std;
 
 void solve(){
-  float n;cin>>n;
-  float n3=n/3;
-  float fn= floor(n3);
-  cout<<"n3"<<n3<<" fn "<<fn;
-   
 }
 
 int main(){
