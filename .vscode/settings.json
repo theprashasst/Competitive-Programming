@@ -2,6 +2,10 @@
     "files.associations": {
         "iostream": "cpp",
         "iomanip": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "valarray": "cpp"
     }
 }
