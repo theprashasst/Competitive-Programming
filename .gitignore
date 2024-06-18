@@ -1,2 +1,5 @@
-
+*.exe
 /Not Accepted
+.cph
+.vscode
+questions.bin
