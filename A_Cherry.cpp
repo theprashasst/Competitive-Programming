@@ -20,11 +20,11 @@ void solve(){
     cin>>arr[i];
    }
    for (int i=0; i<n-1;i++){
-    ll mx=arr[i],mn=arr[i];
+    ll mxx=arr[i],mn=arr[i];
     for (int j=i+1;j<n;j++){
-        mx=max(arr[j],mx);
+        mxx=max(arr[j],mxx);
         mn=min(arr[j],mn);
-        ans=max(ans,mx*mn);
+        ans=max(ans,mxx*mn);
     }
    }
    cout<<ans;
